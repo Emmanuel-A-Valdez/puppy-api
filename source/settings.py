@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@oaxe8tfbu%yb4an!av5kut&u6w0s#nej)7t_5!%p(l832w_%l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['puppys-api.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
