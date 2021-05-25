@@ -1,53 +1,68 @@
-PUPPY API
+## Puppy API
 
-Crud + List based rest API
+CRUD + List based api for Puppy instances/objects.
 
-Deployed site: https://puppys-api.herokuapp.com/
+**Technologies used:** Python, Django and Django rest framework.
 
-List = /puppy-list/
+### URLS
 
-Detail = /puppy-detail/<int:pk>/
+**Base URL:** [Puppys-api](https://puppys-api.herokuapp.com/ 'Rest API')
 
-Create = /puppy-create/,
+**Create:** /puppy-create/
 
-Update = /puppy-update/<int:pk>/
+**Read:** /puppy-detail/<int:pk>/
 
-Delete = /puppy-delete/<int:pk>/
+**Update:** /puppy-update/<int:pk>/
 
-Puppy objects can also be created and edited in django admin
+**Delete:** "/puppy-delete/<int:pk>/
 
-https://puppys-api.herokuapp.com/admin/
-
-User = visitor
-
-Password is the name of the academy this project was created for (all lowercase).
-
-If testing api with 3rd party software make sure to end all urls with '/'
+**List:** /puppy-list/
 
 
+**Puppy objects can also be created and edited in django admin**
 
-Rest API basado en principios CRUD + Listar
+**Admin:** [Django admin](https://puppys-api.herokuapp.com/admin/)
 
-Sitio publicado: https://puppys-api.herokuapp.com/
+**User:** visitor
 
-Listar = /puppy-list/
+**Password** is the name of the academy this project was created for (all lowercase).
 
-Detalles= /puppy-detail/<int:pk>/
-
-Crear= /puppy-create/
-
-Actualizar = /puppy-update/<int:pk>/
-
-Destruir = /puppy-delete/<int:pk>/
-
-Objectos Puppy tambien pueden ser vistos, creados y modificados en django admin
-
-https://puppys-api.herokuapp.com/admin/
+_If testing api with 3rd party software make sure to end all urls with '/'_
 
 
-Usuario: visitor
 
-Clave es el nombre de la academia para quien fue hecho este proyecto (todo minusculas).
+### Español
 
-En caso de usar software para probar el API, asegúrese de terminar todas las URL con '/'
+## Puppy API
+
+Api basado en principios CRUD + listar para instancias/objetos Puppy.
+
+**Tecnologias:** Python, Django y Django rest framework
+
+### URLS
+
+**Inicio:** [Puppys-api](https://puppys-api.herokuapp.com/ 'Rest API')
+
+**Crear:** /puppy-create/
+
+**Leer:** /puppy-detail/<int:pk>/
+
+**Actualizar:** /puppy-update/<int:pk>/
+
+**Borrar:** "/puppy-delete/<int:pk>/
+
+**Listar:** /puppy-list/
+
+
+**Instancias Puppy tambien pueden ser vistos, creados, actualizados y borrados en django admin**
+
+**Admin:** [Django admin](https://puppys-api.herokuapp.com/admin/)
+
+
+**Usuario:** visitor
+
+**Clave** es el nombre de la academia para quien fue hecho este proyecto (todo minusculas).
+
+_En caso de usar software para probar el API, asegúrese de terminar todas las URL con '/'_
+
 
